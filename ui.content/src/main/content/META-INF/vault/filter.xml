@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/purinadam" mode="merge"/>
+    <filter root="/content/purinadam" mode="merge"/>
+    <filter root="/content/dam/purinadam" mode="merge">
+        <exclude pattern="/content/dam/purinadam(/.*)?"/>
+        <include pattern="/content/dam/purinadam/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/purinadam/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/purinadam" mode="merge"/>
+</workspaceFilter>
